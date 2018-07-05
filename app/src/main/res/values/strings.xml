@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">MySNS</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_name">Name</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_login2">Sign in</string>
+    <string name="title_activity_register">New Account</string>
+    <string name="feed_button">  Feed  </string>
+    <string name="userlist_button">UserList</string>
+    <string name="profile_button">Profile</string>
+    <string name="feed_submit">Submit</string>
+    <string name="logoff_button">LogOut</string>
+    <string name="welcome">WELCOME BACK</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile_photo">Photo</string>
+    <string name="profile_id">ID Here</string>
+    <string name="profile_firstname">FirstName Here</string>
+    <string name="profile_lastname">LastName Here</string>
+    <string name="profile_name">Name Here</string>
+    <string name="profile_birth">BirthDate Here</string>
+    <string name="profile_hometown">Hometown Here</string>
+    <string name="profile_bio">Bio Here</string>
+    <string name="profile_edit">Edit Profile</string>
+    <string name="profile_like">Like</string>
+    <string name="edit_profile_submit">Submit</string>
+    <string name="image_upload">Upload photo</string>
+    <string name="profile_unlike">Unlike</string>
+    <string name="feed_prompt">Enter Text Here</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/content_panel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="visible">
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/feed_button"
+                style="@android:style/Widget.Holo.Button.Toggle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:text="@string/feed_button"
+                android:textAppearance="@style/TextAppearance.Design.Tab" />
+
+            <Button
+                android:id="@+id/userlist_button"
+                style="@android:style/Widget.Holo.Button.Toggle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#9842c8"
+                android:text="@string/userlist_button"
+                android:textAppearance="@style/TextAppearance.Design.Tab" />
+
+            <Button
+                android:id="@+id/profile_button"
+                style="@android:style/Widget.Holo.Button.Toggle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:text="@string/profile_button"
+                android:textAppearance="@style/TextAppearance.Design.Tab" />
+
+            <Button
+                android:id="@+id/log_out_button"
+                style="@android:style/Widget.Holo.Button.Toggle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:text="@string/logoff_button"
+                android:textAppearance="@style/TextAppearance.Design.Tab" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
